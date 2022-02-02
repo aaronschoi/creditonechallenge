@@ -1,12 +1,18 @@
 :root {
-    --color-blue: hsla(209 45% 37% / 100%);
+  --color-blue: hsla(209 45% 37% / 100%);
+  --color-orange: hsla(30 87% 58% / 100%);
+  --color-dark-orange: hsla(24 75% 52% / 100%);
+  --color-gray: hsla(0 0% 26% / 100%);
+  --color-light-gray: hsla(0 1% 63% / 100%);
+  --color-extra-light-gray: hsla(0 0% 91% / 100%);
 }
 
 .App {
-    color: var(--color-blue);
-    font-family: 'Jaldi', sans-serif;
+  color: var(--color-blue);
+  font-family: "Jaldi", sans-serif;
+  font-size: 62.5%;
 }
 
 p > strong {
-    font-weight: bold;
+  font-weight: bold;
 }

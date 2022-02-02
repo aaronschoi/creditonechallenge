@@ -1,0 +1,14 @@
+.buttons-container {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: max-content;
+    justify-content: center;
+}
+
+.buttons-fineprint {
+    font-size: 1.5em;
+}
+
+.buttons-fineprint:hover {
+    cursor: pointer;
+}

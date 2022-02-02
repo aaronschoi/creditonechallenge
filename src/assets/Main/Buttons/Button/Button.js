@@ -1,6 +1,8 @@
+import "./button.css";
+
 const Button = ({ text, color }) => {
     return (
-        <button className={`color-${color}`}>{text}</button>
+        <button className={`button color-${color}`}>{text}</button>
     )
 }
 
