@@ -1,0 +1,13 @@
+.header-blue {
+    background-color: blue;
+}
+
+.header-white {
+    background-color: pink;
+}
+
+.header-blue, .header-white {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
