@@ -10,10 +10,12 @@ const Main = () => {
       <div className="main-content-container">
         <Content />
         <Buttons />
-        <p>
+        <div className="main-fineprint-container">
+        <p className="main-fineprint">
           *See the Disclosures and Terms & Conditions' on the application page
           by selecting the 'Accept Now' button.
         </p>
+        </div>
       </div>
     </main>
   );

@@ -1,6 +1,6 @@
 const ContentTitle = () => {
     return (
-        <h1>
+        <h1 className="content-title">
             Consolidate Your Debt With A Lower Rate
         </h1>
     )

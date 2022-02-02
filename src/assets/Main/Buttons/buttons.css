@@ -3,10 +3,11 @@
     gap: 10px;
     grid-template-columns: max-content;
     justify-content: center;
+    padding: 2rem 0;
 }
 
 .buttons-fineprint {
-    font-size: 1.5em;
+    font-size: 1.3rem;
 }
 
 .buttons-fineprint:hover {

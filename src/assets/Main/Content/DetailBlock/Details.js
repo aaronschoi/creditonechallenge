@@ -21,7 +21,7 @@ const Details = () => {
           </p>
         </div>
       </div>
-      <p>
+      <p className="details-hook">
         Manage life's expenses by transferring a balance to your Credit One Bank
         account today
       </p>

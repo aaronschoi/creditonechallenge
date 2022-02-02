@@ -7,10 +7,13 @@
   --color-extra-light-gray: hsla(0 0% 91% / 100%);
 }
 
+html {
+  font-size: 62.5%;
+}
+
 .App {
   color: var(--color-blue);
   font-family: "Jaldi", sans-serif;
-  font-size: 62.5%;
 }
 
 p > strong {
