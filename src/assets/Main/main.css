@@ -1,3 +1,3 @@
 .main {
-    height: calc(100vh - 13vh)
+    min-height: calc(100vh - 13vh - 40px)
 }
