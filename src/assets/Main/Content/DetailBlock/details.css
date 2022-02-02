@@ -1,0 +1,17 @@
+.details-grid-container {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr;
+  justify-content: center;
+}
+
+.details-grid-content > p {
+  padding: 2.5px;
+}
+
+.details-line {
+    width: 33%;
+    height: 1px;
+    background-color: black;
+    justify-self: center;
+}

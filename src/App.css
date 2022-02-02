@@ -1,1 +1,12 @@
+:root {
+    --color-blue: hsla(209 45% 37% / 100%);
+}
 
+.App {
+    color: var(--color-blue);
+    font-family: 'Jaldi', sans-serif;
+}
+
+p > strong {
+    font-weight: bold;
+}

@@ -5,15 +5,17 @@ import Buttons from "./Buttons/Buttons";
 
 const Main = () => {
   return (
-    <div className="main">
+    <main className="main">
       <Caller />
-      <Content />
-      <Buttons />
-      <p>
-        *See the Disclosures and Terms & Conditions' on the application page by
-        selecting the 'Accept Now' button.
-      </p>
-    </div>
+      <div className="main-content-container">
+        <Content />
+        <Buttons />
+        <p>
+          *See the Disclosures and Terms & Conditions' on the application page
+          by selecting the 'Accept Now' button.
+        </p>
+      </div>
+    </main>
   );
 };
 

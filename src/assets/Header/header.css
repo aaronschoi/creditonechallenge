@@ -1,9 +1,9 @@
 .header-blue {
-    background-color: blue;
+    background-color: var(--color-blue);
 }
 
 .header-white {
-    background-color: pink;
+    background-color: white;
 }
 
 .header-blue, .header-white {

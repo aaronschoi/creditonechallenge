@@ -1,20 +1,32 @@
+import "./details.css";
+
 const Details = () => {
-    return (
-        <div>
-            <h2>XX.XX%</h2>
-            <div>
-                <p>Promotional APR</p>
-                <p>now through XX/XX/XXXX</p>
-            </div>
-            <div>LINE</div>
-            <div>
-                <p>A XX.XX% variable APR will apply after the promotional period*</p>
-            </div>
-            <p>
-                Manage life's expenses by transferring a balance to your Credit One Bank account today
-            </p>
+  return (
+    <div>
+      <div className="details-grid-container">
+        <h2 className="details-grid-title">XX.XX%</h2>
+        <div className="details-grid-content">
+          <p>
+            <strong>Promotional APR</strong>
+          </p>
+          <p>
+            now through <strong>XX/XX/XXXX</strong>
+          </p>
         </div>
-    )
-}
+        <div className="details-line"></div>
+        <div className="details-grid-fineprint">
+          <p>
+            A <strong>XX.XX% variable APR</strong> will apply after the
+            promotional period*
+          </p>
+        </div>
+      </div>
+      <p>
+        Manage life's expenses by transferring a balance to your Credit One Bank
+        account today
+      </p>
+    </div>
+  );
+};
 
 export default Details;
