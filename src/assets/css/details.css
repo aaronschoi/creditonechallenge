@@ -15,13 +15,14 @@
 }
 
 .details-line {
-    width: 33%;
-    height: 1px;
-    background-color: var(--color-blue);
-    justify-self: center;
+  width: 33%;
+  height: 1px;
+  background-color: var(--color-blue);
+  justify-self: center;
 }
 
-.details-grid-content, .details-grid-fineprint {
+.details-grid-content,
+.details-grid-fineprint {
   font-size: 1.5rem;
 }
 
@@ -29,4 +30,14 @@
   font-size: 2.2rem;
   font-weight: bold;
   padding: 2rem 0;
+}
+
+@media only screen and (min-width: 1023px) {
+  /* .details-grid-container,
+  .details-grid-content,
+  .details-grid-title,
+  .details-line,
+  .details-hook {
+    display: none;
+  } */
 }

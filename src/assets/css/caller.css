@@ -11,3 +11,12 @@
     height: 40rem;
   }
 }
+
+@media only screen and (min-width: 1023px) {
+  .caller {
+    box-shadow: inset 30rem 0 40rem 0 rgba(255, 255, 255);
+    grid-column: 2;
+    grid-row: 1 / 2;
+    height: unset;
+  }
+}

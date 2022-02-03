@@ -28,3 +28,21 @@
   text-align: center;
   top: 2rem;
 }
+
+@media only screen and (min-width: 1023px) {
+  .main {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    place-items: stretch stretch;
+    padding-left: 15rem;
+  }
+  .main-content-container {
+    position: unset;
+    top: 0;
+    text-align: left;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+  }
+}

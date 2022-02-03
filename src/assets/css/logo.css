@@ -8,3 +8,9 @@
     padding: 2rem 5rem;
   }
 }
+
+@media only screen and (min-width: 1023px) {
+  .logo {
+    padding: 2rem 15rem;
+  }
+}
