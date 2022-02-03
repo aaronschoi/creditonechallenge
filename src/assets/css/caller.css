@@ -1,6 +1,6 @@
 .caller {
   box-shadow: inset 0px -40px 50px 30px rgb(255, 255, 255);
-  background-image: url(./caller.jpg);
+  background-image: url(../images/caller.jpg);
   height: 25vh;
   background-size: cover;
   background-position: center center;

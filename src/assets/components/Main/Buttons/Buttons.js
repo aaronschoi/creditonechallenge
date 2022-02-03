@@ -1,5 +1,5 @@
 import Button from "./Button/Button";
-import { useAppSelector } from "../../../store/hooks/hooks";
+import { useAppSelector } from "../../../../store/hooks/hooks";
 import useChangeColor from "./useChangeColor";
 
 const Buttons = () => {
@@ -16,7 +16,7 @@ const Buttons = () => {
   };
 
   const onCLickLinkToCreditOneHandler = () => {
-    window.open("https://www.creditonebank.com/")
+    window.open("https://www.creditonebank.com/");
   };
 
   return (

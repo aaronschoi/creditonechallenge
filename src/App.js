@@ -1,8 +1,7 @@
 import './App.css';
-import Main from './assets/Main/Main';
-import Footer from './assets/Footer/Footer';
-import Header from './assets/Header/Header';
-import { useAppSelector } from './store/hooks/hooks';
+import Header from './assets/components/Header/Header';
+import Main from './assets/components/Main/Main';
+import Footer from './assets/components/Footer/Footer';
 
 function App() {
 
