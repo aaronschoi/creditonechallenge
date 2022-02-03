@@ -1,13 +1,13 @@
 .main {
   min-height: calc(100vh - 13vh - 40px);
-  position: relative;
+  /* position: relative; */
   display: flex;
   flex-direction: column;
 }
 
 .main-content-container {
-  position: relative;
-  top: -4.3rem;
+  /* position: relative;
+  top: -4.3rem; */
   width: 100%;
   min-height: 100%;
   text-align: center;
@@ -24,9 +24,9 @@
 }
 
 .main-fineprint {
-  position: relative;
+  /* position: relative; */
   font-size: 1.35rem;
   color: var(--color-light-gray);
   text-align: center;
-  top: 2rem;
+  /* top: 2rem; */
 }

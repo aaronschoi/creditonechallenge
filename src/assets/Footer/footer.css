@@ -1,8 +1,14 @@
 .footer-container {
-    background-color: var(--color-gray);
-    height: 5vh;
+  background-color: var(--color-gray);
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  justify-self: flex-end;
 }
 
 .footer-content {
-    color: var(--color-light-gray);
+  color: var(--color-light-gray);
+  width: auto;
+  padding: 1rem;
+  font-size: 1.3rem;
 }
