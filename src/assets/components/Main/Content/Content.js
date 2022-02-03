@@ -1,4 +1,3 @@
-import "./content.css";
 import ContentTitle from "./ContentTitle";
 import Details from "./DetailBlock/Details";
 

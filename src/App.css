@@ -1,3 +1,13 @@
+@import url("./assets/css/button.css");
+@import url("./assets/css/buttons.css");
+@import url("./assets/css/caller.css");
+@import url("./assets/css/content.css");
+@import url("./assets/css/details.css");
+@import url("./assets/css/footer.css");
+@import url("./assets/css/header.css");
+@import url("./assets/css/logo.css");
+@import url("./assets/css/main.css");
+
 :root {
   --color-blue: hsla(209 45% 37% / 100%);
   --color-orange: hsla(30 87% 58% / 100%);

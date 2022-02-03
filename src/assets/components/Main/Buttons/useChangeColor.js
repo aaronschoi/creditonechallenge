@@ -1,5 +1,5 @@
-import { useAppDispatch, useAppSelector } from "../../../store/hooks/hooks"
-import { colorStates } from "../../../store/reducers/headerColor";
+import { useAppDispatch } from "../../../../store/hooks/hooks"
+import { colorStates } from "../../../../store/reducers/headerColor";
 
 const useChangeColor = () => {
     const dispatch = useAppDispatch();
