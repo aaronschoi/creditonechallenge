@@ -1,7 +1,13 @@
 .caller {
   box-shadow: inset 0px -40px 50px 30px rgb(255, 255, 255);
   background-image: url(../images/caller.jpg);
-  height: 25vh;
+  height: 30rem;
   background-size: cover;
   background-position: center center;
+}
+
+@media only screen and (min-width: 600px) and (orientation: landscape) {
+  .caller {
+    height: 40rem;
+  }
 }

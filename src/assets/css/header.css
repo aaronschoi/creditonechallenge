@@ -1,13 +1,21 @@
 .header-blue {
-    background-color: var(--color-blue);
+  background-color: var(--color-blue);
 }
 
 .header-white {
-    background-color: white;
+  background-color: white;
 }
 
-.header-blue, .header-white {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.header-blue,
+.header-white {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (min-width: 600px) and (orientation: landscape) {
+  .header-blue,
+  .header-white {
+    justify-content: left;
+  }
 }
