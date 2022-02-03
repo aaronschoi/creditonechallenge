@@ -19,11 +19,13 @@
 
 html {
   font-size: 62.5%;
+  padding: env(safe-area-inset);
 }
 
 .App {
   color: var(--color-blue);
   font-family: "Jaldi", sans-serif;
+  width: 100vw;
 }
 
 p > strong {
