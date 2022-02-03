@@ -1,5 +1,4 @@
 import { useAppSelector } from "../../../store/hooks/hooks";
-import "./logo.css";
 import logoBlue from "./logo.svg";
 import logoWhite from "./logo_white.svg";
 

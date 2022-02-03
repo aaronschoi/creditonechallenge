@@ -1,5 +1,4 @@
 import { useAppSelector } from "../../store/hooks/hooks";
-import "./header.css";
 import Logo from "./Logo/Logo";
 
 const Header = () => {

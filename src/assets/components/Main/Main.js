@@ -1,4 +1,3 @@
-import "./main.css";
 import Caller from "./Caller/Caller";
 import Content from "./Content/Content";
 import Buttons from "./Buttons/Buttons";

@@ -1,4 +1,3 @@
-import "./buttons.css";
 import Button from "./Button/Button";
 import { useAppSelector } from "../../../store/hooks/hooks";
 import useChangeColor from "./useChangeColor";

@@ -1,5 +1,3 @@
-import "./footer.css";
-
 const Footer = () => (
         <div className="footer-container">
             <p className="footer-content">
