@@ -33,11 +33,28 @@
 }
 
 @media only screen and (min-width: 1023px) {
-  /* .details-grid-container,
-  .details-grid-content,
-  .details-grid-title,
-  .details-line,
+  .details-grid-container {
+    grid-template-columns: unset;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+  
+  .details-grid-title {
+    font-size: 9.5rem;
+  }
+  .details-grid-content > p, .details-grid-fineprint {
+    max-width: 15rem;
+    font-size: 1.7rem;
+  }
   .details-hook {
-    display: none;
-  } */
+    max-width: 50rem;
+    font-size: 2.7rem;
+  }
+  .details-line {
+    height: 7rem;
+    width: 1px;
+    position: relative;
+    left: -2rem
+  }
 }

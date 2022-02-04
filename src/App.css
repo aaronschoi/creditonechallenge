@@ -25,7 +25,8 @@ html {
 .App {
   color: var(--color-blue);
   font-family: "Jaldi", sans-serif;
-  width: 100vw;
+  display: flex;
+  flex-direction: column;
 }
 
 p > strong {

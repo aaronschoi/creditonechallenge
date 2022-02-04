@@ -2,14 +2,14 @@ const Details = () => {
   return (
     <div>
       <div className="details-grid-container">
-        <h2 className="details-grid-title">XX.XX%</h2>
+          <h2 className="details-grid-title">XX.XX%</h2>
         <div className="details-grid-content">
-          <p>
-            <strong>Promotional APR</strong>
-          </p>
-          <p>
-            now through <strong>XX/XX/XXXX</strong>
-          </p>
+            <p>
+              <strong>Promotional APR</strong>
+            </p>
+            <p>
+              now through <strong>XX/XX/XXXX</strong>
+            </p>
         </div>
         <div className="details-line"></div>
         <div className="details-grid-fineprint">
