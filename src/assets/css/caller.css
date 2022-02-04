@@ -20,3 +20,9 @@
     height: unset;
   }
 }
+
+@media only screen and (min-width: 1023px) and (max-width: 1326px) {
+  .caller {
+    box-shadow: inset 30rem 0 20rem 0 rgba(255, 255, 255);
+  }
+}
