@@ -31,6 +31,7 @@ const Buttons = () => {
         color="gray"
         callBack={onCLickLinkToCreditOneHandler}
       />
+      <div className="buttons-grow"></div>
       <p className="buttons-fineprint">A fee may apply.</p>
     </div>
   );

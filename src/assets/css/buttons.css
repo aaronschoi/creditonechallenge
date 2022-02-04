@@ -13,3 +13,15 @@
 .buttons-fineprint:hover {
     cursor: pointer;
 }
+
+@media only screen and (min-width: 1023px) {
+    .buttons-container {
+        grid-template-columns: max-content max-content auto;
+        align-items: left;
+        justify-content: left;
+        text-align: center;
+    }
+    .buttons-fineprint {
+        font-size: 1.4rem;
+    }
+  }

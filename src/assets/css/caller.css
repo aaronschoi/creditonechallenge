@@ -1,7 +1,28 @@
 .caller {
-  box-shadow: inset 0px -40px 50px 30px rgb(255, 255, 255);
+  box-shadow: inset 0px -30px 50px 30px rgb(255, 255, 255);
   background-image: url(../images/caller.jpg);
-  height: 25vh;
+  height: 30rem;
   background-size: cover;
   background-position: center center;
+}
+
+@media only screen and (min-width: 600px) and (orientation: landscape) {
+  .caller {
+    height: 40rem;
+  }
+}
+
+@media only screen and (min-width: 1023px) {
+  .caller {
+    box-shadow: inset 30rem 0 40rem 0 rgba(255, 255, 255);
+    grid-column: 2;
+    grid-row: 1 / 2;
+    height: unset;
+  }
+}
+
+@media only screen and (min-width: 1023px) and (max-width: 1326px) {
+  .caller {
+    box-shadow: inset 30rem 0 20rem 0 rgba(255, 255, 255);
+  }
 }
